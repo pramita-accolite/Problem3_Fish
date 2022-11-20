@@ -26,11 +26,12 @@ public class pondsimulation {
         Thread t5 = new Thread(r);
        
         populatePond();
-        for (int i=0;i<10;i++)
-        {
-           Fish f1 = pond.get(i);
-            System.out.println(f1.gender+" "+f1.id);
-        }
+        
+        //for (int i=0;i<10;i++)
+        //{
+        //   Fish f1 = pond.get(i);
+        //    System.out.println(f1.gender+" "+f1.id);
+        //}
         //System.out.println(pond);
         
         t1.start();
